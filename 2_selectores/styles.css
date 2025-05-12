@@ -1,0 +1,56 @@
+.mainTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+#globalNav .mainTitle {
+    font-size: 24px;
+    color: red;
+}
+.contenedor .mainTitle {
+    color: blue;
+}
+footer .mainTitle {
+    color: yellow
+    ;
+}
+
+footer > p {
+    background-color: green;        
+}
+
+footer > p > span {
+    background-color: red;
+}
+h2 + p{
+    text-decoration: underline;
+}
+
+.developer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.developer + p {
+    background-color: lightskyblue;
+}
+
+#contenedor button {
+    background-color: blue;
+    color: white;
+}
+
+input[type] {
+    border-bottom: yellow 2px dotted;
+    border-top: 4px solid red;
+    border-left: 8px solid green;
+    border-right: 6px solid blue;
+}
+input[type="password"] {
+    border-left: crimson 2px dashed;
+    border-right: rgb(80, 220, 20) 5px solid;
+}
+a[href$="org"] {
+    color: peru;
+}
+a[href^="aprendices"] {
+    color: pink;
+}
